@@ -1,0 +1,23 @@
+{
+  "name": "whoru",
+  "version": "1.0.0",
+  "description": "Jeu nodejs simple",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsieurpigeon/whoRU.git"
+  },
+  "author": "monsieurpigeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monsieurpigeon/whoRU/issues"
+  },
+  "homepage": "https://github.com/monsieurpigeon/whoRU#readme",
+  "dependencies":{
+    "express": "*",
+    "socket.io": "*"
+  }
+}
