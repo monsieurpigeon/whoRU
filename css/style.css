@@ -2,19 +2,37 @@
     padding: 0;
     margin: 0;
 }
+html {
+    background-color: black;
+}
+h1 {
+    color: white;
+}
 
 #game {
     position: relative;
     margin: auto;
     padding: 0px;
     width: 1280px;
-    border: solid red 1px;
+    border-radius: 10px;
 }
 
 #chat {
     position: absolute;
-    width: 450px;
-    height: 720px;
-    right: 0;
+    width: 400px;
+    height: 680px;
+    right: 10px;
+    top: 10px;
     background-color: red;
+    border:1px #ccc solid;
+    border-radius:10px;
+    background:#f4f4f4;
+    padding: 10px;
+}
+input {
+    height:30px;
+    border:solid 1px #ccc;
+}
+ #chatWindow {
+    height: 95%;
 }

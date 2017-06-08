@@ -25,6 +25,9 @@ io.sockets.on('connection', function(socket){
     socket.on('test',function(){
         console.log('test received');
     });
+    socket.on('send message', function(data){
+        io.sockets.emit('new message', {msg: data});
+    });
 
     socket.on('newPlayer',function(login){
         io.emit('welcome', login);
