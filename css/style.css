@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    width: 1280px;
+    border: solid red 1px;
+}
+
+#chat {
+    position: absolute;
+    width: 450px;
+    height: 720px;
+    right: 0;
+    background-color: red;
+}
